@@ -2516,11 +2516,11 @@ input, select, textarea {
 		}
 
 			.image.fill img {
-				height: 80%;
+				height: 100%;
 				left: 0;
 				position: relative;
 				top: 0;
-				width: 80%;
+				width: 100%;
 			}
 
 /* List */
