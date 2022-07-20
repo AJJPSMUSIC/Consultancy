@@ -2503,9 +2503,8 @@ input, select, textarea {
 				width: 100%;
 			}
 
-			.image.main:first-child {
-				margin-top: 0;
-			}
+			.image.main:	first-child { margin-top: 0 !important; margin-left: 0 !important; }
+					last-child { margin-bottom: 0 !important; margin-right: 0 !important; }
 
 		.image.fill {
 			height: 100%;
