@@ -3250,8 +3250,8 @@ input, select, textarea {
 
 			#wrapper section > header {
 				grid-area: header;
-				justify-self: end;
-				text-align: left;
+				justify-self: stretch;
+				text-align: right;
 			}
 
 				#wrapper section > header h2 {
