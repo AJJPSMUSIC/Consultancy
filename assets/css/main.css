@@ -3251,7 +3251,7 @@ input, select, textarea {
 			#wrapper section > header {
 				grid-area: header;
 				justify-self: end;
-				text-align: right;
+				text-align: left;
 			}
 
 				#wrapper section > header h2 {
@@ -3260,9 +3260,9 @@ input, select, textarea {
 
 				#wrapper section > header h1 + p {
 					font-family: "Raleway", Helvetica, sans-serif;
-					font-size: 0.8rem;
-					letter-spacing: 0.175em;
-					line-height: 2.5;
+					font-size: 1.2rem;
+					letter-spacing: 0.125em;
+					line-height: 2.7;
 					text-transform: capitalize;
 				}
 
