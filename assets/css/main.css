@@ -2849,7 +2849,7 @@ input, select, textarea {
 		}
 
 		a.arrow:before {
-			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='"http://www.w3.org/2000/svg" fill="#a3902a" fill-rule="evenodd" clip-rule="evenodd"><path d="M0 3l12 18 12-18h-24zm12 16.197l-10.132-15.197h20.263l-10.131 15.197");background-position: center;
+			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='"http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M0 3l12 18 12-18h-24zm12 16.197l-10.132-15.197h20.263l-10.131 15.197");background-position: center;
 			background-repeat: no-repeat;
 			background-size: contain;
 			content: '';
