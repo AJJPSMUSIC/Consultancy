@@ -3249,7 +3249,7 @@ input, select, textarea {
 
 			#wrapper section > header {
 				grid-area: header;
-				justify-self: stretch;
+				justify-self: end;
 				text-align: right;
 			}
 
