@@ -2849,9 +2849,9 @@ input, select, textarea {
 		}
 
 		a.arrow:before {
-			background-image: url("images/arrow-down-animated.gif");
+			background-image: url("images/arrow-7.gif");
 			background-repeat: no-repeat;
-			background-size: 65% 85%;
+			background-size: contain;
 			content: '';
 			display: inline-block;
 			height: 100%;
