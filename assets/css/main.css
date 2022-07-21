@@ -3803,7 +3803,7 @@ input, select, textarea {
 
 	#wrapper > section.intro {
 		transition: opacity 1s ease;
-		opacity: 0.75;
+		opacity: 1;
 	}
 
 		#wrapper > section.intro > header {
