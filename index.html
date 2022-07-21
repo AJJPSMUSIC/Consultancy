@@ -27,9 +27,33 @@
 								<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
 							</ul>
 						</header>
-						<div class="content">
-							<span class="image fill" data-position="center"><img src="images/PLUTONEON_Consultancy_Logo.gif" alt="" /></span>
+						<div class="w3-content w3-section" style="max-width:500px">
+						  <img class="mySlides" src="images/gallery/mySlides/PLUTONEON Consultancy gif1.jpg" style="width:100%">
+						  <img class="mySlides" src="images/gallery/mySlides/PLUTONEON Consultancy gif2.jpg" style="width:100%">
+						  <img class="mySlides" src="images/gallery/mySlides/PLUTONEON Consultancy gif3.jpg" style="width:100%">
+						  <img class="mySlides" src="images/gallery/mySlides/PLUTONEON Consultancy gif4.jpg" style="width:100%">
+						  <img class="mySlides" src="images/gallery/mySlides/PLUTONEON Consultancy gif5.jpg" style="width:100%">
+						  <img class="mySlides" src="images/gallery/mySlides/PLUTONEON Consultancy gif6.jpg" style="width:100%">
+						  <img class="mySlides" src="images/gallery/mySlides/PLUTONEON Consultancy gif7.jpg" style="width:100%">
+						  <img class="mySlides" src="images/gallery/mySlides/PLUTONEON Consultancy gif8.jpg" style="width:100%">
 						</div>
+
+						<script>
+						var myIndex = 0;
+						carousel();
+
+						function carousel() {
+						  var i;
+						  var x = document.getElementsByClassName("mySlides");
+						  for (i = 0; i < x.length; i++) {
+						    x[i].style.display = "none";  
+						  }
+						  myIndex++;
+						  if (myIndex > x.length) {myIndex = 1}    
+						  x[myIndex-1].style.display = "block";  
+						  setTimeout(carousel, 2000); // Change image every 2 seconds
+						}
+						</script>
 					</section>
 
 				<!-- Section -->
@@ -38,33 +62,32 @@
 							<h2>I will be your business consultant, mentor and coach for ideas, strategy and advice</h2>
 						</header>
 						<div class="content">
-							<p><strong>"Happiness</strong> doesn't live inside of you.
-										What lives inside you is an... Empire! 
-										It's an EMPIRE that's inside of YOU and it's just 
-										execution. 
-										You just need to just start with a brisk walk!
-
-										Start with a brisk walk, cut the carbs, cut the sugar ... a little brisk walk...!  
-										Do no more reading at night. 
-										No phone time at night. 
-										Natural light. 
-										More big windows. 
-										Nice wood, good acoustics on the wood... Feel that?!?
-										See the acoustics?!
-										That's not jarring. 
-										...It's good wood!!
-
-										Little by little. 
-										You go: oh my God, YES! 
-										Little self-care, very important! 
-										Little  eucalyptus.
-										A couple of vitamins. 
-										Little mint..!
-										Very important!! 
-										See a good friend. 
-										Take a walk on the beach, laugh. 
-										Why? 
-										Because you want an EMPIRE." - Tim Dillon 
+							<p><strong>"Happiness</strong> doesn't live inside of you.<br />
+										What lives inside you is an... Empire!<br />
+										It's an EMPIRE that's inside of YOU and it's just execution.<br />
+										You just need to just start with a brisk walk!<br />
+										 <br />
+										Start with a brisk walk, cut the carbs, cut the sugar ... a little brisk walk...!<br /> 
+										Do no more reading at night.<br />
+										No phone time at night.<br />
+										Natural light.<br />
+										More big windows.<br />
+										Nice wood, good acoustics on the wood... Feel that?!?<br />
+										See the acoustics?!<br />
+										That's not jarring.<br />
+										...It's good wood!!<br />
+										 <br />
+										Little by little.<br />
+										You go: oh my God, YES!<br />
+										Little self-care, very important!<br />
+										Little  eucalyptus.<br />
+										A couple of vitamins.<br />
+										Little mint..!<br />
+										Very important!!<br />
+										See a good friend.<br />
+										Take a walk on the beach, laugh.<br />
+										Why?<br />
+										Because you want an EMPIRE!!!" - Tim Dillon 
 							<span class="image main"><img src="images/Andrew J Shepherd.jpg" alt="" /></span>
 							<span class="image main"><img src="images/loader.gif" alt="" /></span>
 						</div>
