@@ -2849,7 +2849,7 @@ input, select, textarea {
 		}
 
 		a.arrow:before {
-			background-image: <i class="fa-thin fa-arrow-down-to-arc"></i>;
+			background-image: url("images/arrow-down-animated.gif");
 			background-repeat: no-repeat;
 			background-size: 65% 85%;
 			content: '';
