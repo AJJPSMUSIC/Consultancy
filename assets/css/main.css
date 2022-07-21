@@ -2851,7 +2851,7 @@ input, select, textarea {
 		a.arrow:before {
 			background-image: url("images/arrow-down-animated.gif");
 			background-repeat: no-repeat;
-			background-size: 25% 50%;
+			background-size: 50% 75%;
 			content: '';
 			display: inline-block;
 			height: 100%;
