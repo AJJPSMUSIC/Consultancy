@@ -2521,6 +2521,14 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 			}
+				.hide {
+			  display: none;
+			}
+
+			.myDIV:hover + .hide {
+			  display: block;
+			  color: red;
+			}
 
 /* List */
 
@@ -3877,12 +3885,4 @@ input, select, textarea {
 			padding: 4rem;
 		}
 
-	}
-		.hide {
-	  display: none;
-	}
 
-	.myDIV:hover + .hide {
-	  display: block;
-	  color: red;
-	}
