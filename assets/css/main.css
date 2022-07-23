@@ -3182,7 +3182,7 @@ input, select, textarea {
 		}
 
 			ul.feature-icons li:before {
-				background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 512 512'><path d='M256,0l221.7,128v256L256,512L34.3,384V128L256,0z' fill='rgba(163, 144, 42, 1)' /></svg>");
+				background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 512 512'><path d='M256,0l221.7,128v256L256,512L34.3,384V128L256,0z' fill='rgba(31,16,1, 1)' /></svg>");
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
