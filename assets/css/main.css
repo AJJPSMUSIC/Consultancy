@@ -1960,9 +1960,9 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #49fcd4;
+			background-color: #a3902a;
 			box-shadow: none;
-			color: #49fcd4 !important;
+			color: #a3902a !important;
 		}
 
 			input[type="submit"].primary:hover,
