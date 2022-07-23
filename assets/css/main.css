@@ -3292,7 +3292,7 @@ input, select, textarea {
 				}
 
 		#wrapper > section {
-			position: fixed;
+			position: relative;
 		}
 
 			#wrapper > section > header:before {
