@@ -3157,7 +3157,30 @@ input, select, textarea {
 			.gallery a.portrait img {
 				height: 14rem;
 			}
+		
+		@media (max-width: 280px) {
+			
+			.galaxy-fold-open-your-device {
+				    display: block !important;
+				    position: absolute;
+				    top: 0;
+				    left: 0;
+				    right: 0;
+				    bottom: 0;
+				    background: #fff;
+				    z-index: 2147483647;
+			  }
 
+			  .galaxy-fold-open-your-device::after {
+				    content: 'Please unfold your phone ';
+				    display: block;
+				    display: flex;
+				    height: 100vh;
+				    justify-content: center;
+				    align-items: center;
+			  }
+
+			}
 		}
 
 /* Feature Icons */
