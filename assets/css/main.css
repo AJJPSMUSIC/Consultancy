@@ -1861,7 +1861,7 @@ input, select, textarea {
 		border-radius: 0.325rem;
 		border: 0;
 		box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
-		color: #a3902a !important;
+		color: #49fcd4 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-family: "Raleway", Helvetica, sans-serif;
@@ -1893,7 +1893,7 @@ input, select, textarea {
 		.button:active {
 			background-color: rgba(73, 252, 212, 0.25);
 			box-shadow: inset 0 0 0 2px #2ee4bb;
-			color: #a3902a !important;
+			color: #49fcd4 !important;
 		}
 
 		input[type="submit"].small,
@@ -1962,7 +1962,7 @@ input, select, textarea {
 		.button.primary {
 			background-color: #a3902a;
 			box-shadow: none;
-			color: #a3902a !important;
+			color: #49fcd4 !important;
 		}
 
 			input[type="submit"].primary:hover,
@@ -1978,7 +1978,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #a3902a;
+				background-color: #49fcd4;
 			}
 
 		@media screen and (max-width: 736px) {
@@ -3209,7 +3209,7 @@ input, select, textarea {
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
-				color: #000000;
+				color: #a3902a;
 				display: block;
 				font-size: 1.25rem;
 				height: 3.25rem;
