@@ -3938,7 +3938,7 @@ input, select, textarea {
 
 	#wrapper > section.intro {
 		transition: opacity 1s ease;
-		opacity: 1;
+		opacity: 0.75;
 	}
 
 		#wrapper > section.intro > header {
