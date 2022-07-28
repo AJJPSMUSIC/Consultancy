@@ -3410,7 +3410,7 @@ input, select, textarea {
 			}
 
 		#wrapper .copyright {
-			color: rgba(73, 252, 212, 0.5);
+			color: rgba(163, 144, 42, 1);
 			font-size: 1rem;
 			left: 50vw;
 			position: relative;
@@ -3418,7 +3418,7 @@ input, select, textarea {
 		}
 
 			#wrapper .copyright a {
-				color: gold;
+				color: inherit;
 			}
 
 		#wrapper section {
