@@ -3933,12 +3933,12 @@ input, select, textarea {
 	}
 
 		body.is-preload #wrapper:before {
-			opacity: 0;
+			opacity: 0.5;
 		}
 
 	#wrapper > section.intro {
 		transition: opacity 1s ease;
-		opacity: 0.75;
+		opacity: 1;
 	}
 
 		#wrapper > section.intro > header {
@@ -3950,7 +3950,7 @@ input, select, textarea {
 		}
 
 		body.is-preload #wrapper > section.intro {
-			opacity: 0;
+			opacity: 0.5;
 		}
 
 			body.is-preload #wrapper > section.intro > header {
