@@ -3933,7 +3933,7 @@ input, select, textarea {
 	}
 
 		body.is-preload #wrapper:before {
-			opacity: 0.5;
+			opacity: 0;
 		}
 
 	#wrapper > section.intro {
@@ -3950,7 +3950,7 @@ input, select, textarea {
 		}
 
 		body.is-preload #wrapper > section.intro {
-			opacity: 0.5;
+			opacity: 0;
 		}
 
 			body.is-preload #wrapper > section.intro > header {
