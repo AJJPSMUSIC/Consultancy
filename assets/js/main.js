@@ -38,12 +38,6 @@
 			.scrolly({
 				offset: 100
 			});
-	// Scrollup.
-		$('.scrollup')
-			.scrollup({
-				offset: 100
-			});
-
 
 	// Polyfill: Object fit.
 		if (!browser.canUse('object-fit')) {
