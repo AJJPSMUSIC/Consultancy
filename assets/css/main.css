@@ -2866,17 +2866,6 @@ input, select, textarea {
 			width: 3rem;
 		}
 
-		a.arrow:after {
-			background-image: url("images/arrow-8.gif");
-			background-repeat: no-repeat;
-			background-size: contain;
-			content: '';
-			display: inline-block;
-			height: 100%;
-			position: relative;
-			width: 3rem;
-		}
-
 /* Gallery */
 
 	@-moz-keyframes gallery-modal-spinner {
