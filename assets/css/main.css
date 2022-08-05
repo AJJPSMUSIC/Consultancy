@@ -3388,7 +3388,7 @@ input, select, textarea {
 			}
 
 		#wrapper .copyright {
-			color: rgba(163, 144, 42, 1);
+			color: rgba(163, 144, 42, 0.25);
 			font-size: 1rem;
 			left: 50vw;
 			position: relative;
