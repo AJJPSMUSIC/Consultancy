@@ -265,6 +265,34 @@
 	<link rel="preconnect" href="//github.com/AJJPSMUSIC" crossorigin>	
 	<link rel="preload" as="style" href="https://github.com/AJJPSMUSIC/Consultancy/blob/gh-pages/PLUTONEON%20Consultancy%20001.opti.webp" alt="">
 	<head>
+		<script>
+        if ("serviceWorker" in navigator) {
+          navigator.serviceWorker
+            .register("./sw.js")
+            .then(function (registration) {
+              // Registration was successful
+              console.log(
+                "ServiceWorker registration successful with scope: ",
+                registration.scope
+              );
+            })
+            .catch(function (err) {
+              // registration failed :(
+              console.log("ServiceWorker registration failed: ", err);
+            });
+        }
+        window.addEventListener("beforeinstallprompt", function (e) {
+          e.userChoice.then(function (choiceResult) {
+            console.log(choiceResult.outcome);
+            if (choiceResult.outcome == "dismissed") {
+              console.log("User cancelled home screen install");
+            } else {
+              // If the user adds a webpage to the home screen
+              console.log("User added to home screen");
+		    }
+		  });
+		});
+      </script>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-236083513-1"></script>
 		<script>
