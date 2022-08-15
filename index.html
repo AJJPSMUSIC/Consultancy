@@ -311,8 +311,12 @@
 		<title>ℙ𝕃𝕌𝕋𝕆ℕ𝔼𝕆ℕ ℂ𝕠𝕟𝕤𝕦𝕝𝕥𝕒𝕟𝕔𝕪 by 𝔸𝕟𝕕𝕣𝕖𝕨 𝕁. 𝕊𝕙𝕖𝕡𝕙𝕖𝕣𝕕</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2" />
+				<!-- import the webpage's stylesheet -->
+		    <link rel="stylesheet" href="/style.css">
 		<style>.optimize-loading { opacity: 0.8 !important} 
 		</style>
+		    <!-- Manifest -->
+    			<link rel="manifest" href="/manifest.json/.webmanifest">
 <!-- This site is optimized by Plutoneon Consultancy SEO - https://plutoneonconsultancy.com/ -->
 <meta name="description" content="Think fresh, work smarter, grow faster! An ever-changing world requires professionals who are equally dynamic. Let’s make money, not excuses!"/>
 <meta name="robots" content="noodp"/>
@@ -867,6 +871,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</ul>
 			</footer>
 		</section>
+		<p id="requireHTTPS" class="hidden">
+		      <b>STOP!</b> This page <b>must</b> be served over HTTPS.
+		      Please <a>reload this page via HTTPS</a>.
+		    </p>
+
+		    <p>
+		      Make me installable, follow the 
+		      <a href="https://web.dev/codelab-make-installable/">instructions</a> here.
+		    </p>
+
+		    <!-- Install button, hidden by default -->
+		    <div id="installContainer" class="hidden">
+		      <button id="butInstall" type="button">
+			Install
+		      </button>
+		    </div>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -890,6 +910,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				  setTimeout(carousel, 2000); // Change image every 2 seconds
 						}
 						</script>
+			    <!-- import the webpage's javascript file -->
+		    <script src="/script.js" defer></script>
+
+		    <!-- include the Glitch button to show what the webpage is about and
+			  to make it easier for folks to view source and remix -->
+		    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+		    <script src="https://button.glitch.me/button.js"></script>
 
 	</body>
 </html>
