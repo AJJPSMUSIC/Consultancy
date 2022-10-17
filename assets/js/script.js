@@ -1,3 +1,4 @@
+/* (c) @AJJPSMUSIC | MIT licensed */
 const divInstall = document.getElementById('installContainer');
 const butInstall = document.getElementById('butInstall');
 
