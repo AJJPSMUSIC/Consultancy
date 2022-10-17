@@ -1,3 +1,4 @@
+/* (c) @AJJPSMUSIC | MIT licensed */
 const CACHE_NAME = 'offline';
 const OFFLINE_URL = 'offline.html';
 
