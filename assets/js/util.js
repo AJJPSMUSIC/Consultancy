@@ -1,3 +1,4 @@
+/* @AJJPSMUSIC | MIT licensed */
 (function($) {
 
 	/**
