@@ -54,6 +54,10 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
+body {
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
 mark {
 	background-color: transparent;
 	color: inherit;
