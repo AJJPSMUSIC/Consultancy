@@ -1,10 +1,10 @@
 /*
-	Designed by Andrew J.Shepherd | plutoneon.com - based on Paradigm Shift by HTML5 UP html5up.net | @ajlkn
+	Designed by Andrew J.Shepherd | plutoneon.com | @AJJPSMUSIC
 */
 
 (function($) {
 
-	var	$window = $(window),
+	let	$window = $(window),
 		$body = $('body');
 
 	// Breakpoints.
@@ -44,7 +44,7 @@
 
 			$('.image[data-position]').each(function() {
 
-				var $this = $(this),
+				let $this = $(this),
 					$img = $this.children('img');
 
 				// Apply img as background.
@@ -62,7 +62,7 @@
 
 			$('.gallery > a').each(function() {
 
-				var $this = $(this),
+				let $this = $(this),
 					$img = $this.children('img');
 
 				// Apply img as background.
@@ -84,7 +84,7 @@
 		$('.gallery')
 			.on('click', 'a', function(event) {
 
-				var $a = $(this),
+				let $a = $(this),
 					$gallery = $a.parents('.gallery'),
 					$modal = $gallery.children('.modal'),
 					$modalImg = $modal.find('img'),
@@ -125,7 +125,7 @@
 			})
 			.on('click', '.modal', function(event) {
 
-				var $modal = $(this),
+				let $modal = $(this),
 					$modalImg = $modal.find('img');
 
 				// Locked? Bail.
@@ -170,7 +170,7 @@
 			})
 			.on('keypress', '.modal', function(event) {
 
-				var $modal = $(this);
+				let $modal = $(this);
 
 				// Escape? Hide modal.
 					if (event.keyCode == 27)
@@ -187,7 +187,7 @@
 				.find('img')
 					.on('load', function(event) {
 
-						var $modalImg = $(this),
+						let $modalImg = $(this),
 							$modal = $modalImg.parents('.modal');
 
 						setTimeout(function() {
