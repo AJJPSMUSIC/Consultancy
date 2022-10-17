@@ -1,4 +1,4 @@
-
+/* (c) @AJJPSMUSIC | MIT licensed */
 self.addEventListener("fetch", function(event) {
         console.log(`start server worker`)
         if ('serviceWorker' in navigator) {
