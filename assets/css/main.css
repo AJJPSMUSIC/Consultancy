@@ -139,14 +139,17 @@ input, select, textarea {
 			}
 
 			/* Then style the iframe to fit in the container div with full height and width */
+			.iframe { /* Example size! */
+				    height: 400px; /* original height */
+				    width: 100%; /* original width */
+				}
 			.responsive-iframe {
-			  position: absolute;
-			  top: 0;
-			  left: 0;
-			  bottom: 0;
-			  right: 0;
-			  width: 100%;
-			  height: 100%;
+				    height: 500px; /* new height (400 * (1/0.8) ) */
+				    width: 125%; /* new width (100 * (1/0.8) )*/
+
+				    transform: scale(0.8); 
+				    transform-origin: 0 0;
+				}
 			}
 
 /* Typography */
