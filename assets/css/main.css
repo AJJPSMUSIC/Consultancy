@@ -4012,7 +4012,7 @@ input, select, textarea {
 		transform: translateX(0);
 	    }
 	    100% {
-		transform: translateX(calc(-250px * 7));
+		transform: translateX(calc(-125px * 7));
 	    }
 	}
 	@keyframes scroll-r {
@@ -4020,6 +4020,6 @@ input, select, textarea {
 		transform: translateX(0);
 	    }
 	    0% {
-		transform: translateX(calc(-250px * 7));
+		transform: translateX(calc(-125px * 7));
 	    }
 	}
