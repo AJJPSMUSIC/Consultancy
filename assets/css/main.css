@@ -3933,7 +3933,7 @@ input, select, textarea {
 		}
 /* Slider */		
 	.slider {
-	    background: #efeef2;
+	    background: #a3902a;
 	    height: 100pt;
 	    margin: 0 auto;
 	    overflow: hidden;
@@ -3951,7 +3951,7 @@ input, select, textarea {
 	.slider:before {
 	    background: linear-gradient(
 		to right,
-		#efeef2 0%,
+		#a3902a 0%,
 		hsla(0, 0%, 100%, 0) 100%
 	    );
 	    content: "";
@@ -3969,7 +3969,7 @@ input, select, textarea {
 	.slider:before {
 	    background: linear-gradient(
 		to right,
-		#efeef2 0%,
+		#a3902a 0%,
 		hsla(0, 0%, 100%, 0) 100%
 	    );
 	    content: "";
