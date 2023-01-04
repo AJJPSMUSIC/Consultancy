@@ -3934,7 +3934,7 @@ input, select, textarea {
 /* Slider */		
 	.slider {
 	    background: #efeef2;
-	    height: 75pt;
+	    height: 100pt;
 	    margin: 0 auto;
 	    overflow: hidden;
 	    position: relative;
@@ -3955,7 +3955,7 @@ input, select, textarea {
 		hsla(0, 0%, 100%, 0) 100%
 	    );
 	    content: "";
-	    height: 75pt;
+	    height: 100pt;
 	    position: absolute;
 	    width: 200px;
 	    z-index: 2;
@@ -3973,7 +3973,7 @@ input, select, textarea {
 		hsla(0, 0%, 100%, 0) 100%
 	    );
 	    content: "";
-	    height: 75pt;
+	    height: 100pt;
 	    position: absolute;
 	    width: 200px;
 	    z-index: 2;
@@ -3991,7 +3991,7 @@ input, select, textarea {
 	}
 
 	.slider .slide {
-	    height: 75pt;
+	    height: 100pt;
 	    width: 250px;
 	    display: flex;
 	    align-items: center;
