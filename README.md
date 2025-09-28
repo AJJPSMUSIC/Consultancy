@@ -1,0 +1,1 @@
+Complete re-work of the Consultancy website to specialize in correcting bad AI strategies and implementations for companies in need.
